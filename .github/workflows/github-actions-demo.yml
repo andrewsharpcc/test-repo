@@ -7,7 +7,7 @@ on:
  workflow_dispatch:
 jobs:
   Build:
-    runs-on: alpine-latest
+    runs-on: ubuntu-latest
     steps:
       - run: |
           echo "event: ${{ github.event_name }}"
